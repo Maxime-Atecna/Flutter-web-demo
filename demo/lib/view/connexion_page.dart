@@ -12,7 +12,7 @@ class ConnexionPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
       return Scaffold(
         body: SafeArea(
-          child: _formContent(context, ref),
+          child: Center(child: _formContent(context, ref)),
         ),
       );
 
